@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navdrawerdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NavDrawerDemo">
+        <activity android:name=".ChangePIN2"></activity>
+        <activity android:name=".Forget" />
+        <activity android:name=".OTP" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".CashOutInput" />
+        <activity android:name=".AirtimeInput" />
+        <activity android:name=".PayBillInput" />
+        <activity android:name=".TransferInput" />
+        <activity android:name=".ChangeLanguage" />
+        <activity android:name=".ManageBill" />
+        <activity android:name=".ManageBeneficiary" />
+        <activity android:name=".ChangePIN" />
+        <activity android:name=".MiniStatement" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".OnBoarding" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
